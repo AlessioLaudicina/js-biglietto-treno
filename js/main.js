@@ -14,3 +14,12 @@ console.log(numeroKm);
 
 const etaPassegero = parseInt (prompt('Quanti anni hai?'));
 console.log(etaPassegero);
+
+
+let prezzo = numeroKm * 0.21;
+console.log(prezzo);
+
+
+
+
+
