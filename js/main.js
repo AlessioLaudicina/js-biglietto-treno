@@ -19,17 +19,22 @@ console.log(etaPassegero);
 let prezzo = numeroKm * 0.21;
 console.log(prezzo);
 
+let discountOver = (prezzo * 0.4)
+let discountUnder = (prezzo * 0.2)
+
 if(etaPassegero > 64){
-    console.log( prezzo - (prezzo * 0.4)
+    console.log( prezzo - discountOver
     )
     
 }
 
 if(etaPassegero < 18){
-    console.log( prezzo - (prezzo * 0.2)
+    console.log( prezzo - discountUnder 
     )
     
 }
+
+document.getElementById('prezzo').innerHTML = prezzo
 
 
 
