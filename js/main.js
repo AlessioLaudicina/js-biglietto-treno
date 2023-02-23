@@ -34,7 +34,7 @@ if(etaPassegero < 18){
     
 }
 
-document.getElementById('prezzo').innerHTML = prezzo 
+document.getElementById('prezzo').innerHTML = (prezzo.toFixed(2))
 
 
 
